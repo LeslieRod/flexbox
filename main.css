@@ -52,6 +52,7 @@ h1, h2 {
 .flex-container {
   display: flex;
   flex-direction: row;
+
   justify-content: space-around;
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
   font-size: 16px;
@@ -60,7 +61,7 @@ h1, h2 {
 }
 
 .flex-container div {
-  background-color: white;
+  
   width: 100%;
   padding: 0px 20px 0px 20px;
   justify-content: center;
